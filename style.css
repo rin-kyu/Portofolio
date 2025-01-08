@@ -47,6 +47,23 @@ section::before{
     animation: 2s upDown infinite;
 }
 
+#contact::before {
+    content: 'Contact';
+}
+
+.contact-form {
+    border: 1px solid black;
+    padding: 64px 32px;
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+.contact {
+    padding-bottom: 128px;
+}
+
 @keyframes upDown {
     0% {
         transform: translateY(0);
